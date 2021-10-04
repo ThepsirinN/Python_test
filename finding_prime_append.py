@@ -7,7 +7,7 @@ def findprime(start,end):
   while j<=a:
       while True:
           if (i < j and j%i == 0):
-              //print(j,"is not prime")
+              #print(j,"is not prime")
               k += 1
               break
           if (i == j):
